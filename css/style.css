@@ -240,11 +240,13 @@ a {
 }
 
 .carousel .list .item .buttons button {
-    border: none;
-    background-color: #eee;
+    border-radius: 50px;
+    border: 1px solid #00ac5c;
+    background-color: #00ac5c;
     letter-spacing: 3px;
     font-family: Poppins;
     font-weight: 500;
+    color: var(--bg-white);
 }
 
 .carousel .list .item .buttons button:nth-child(2) {
