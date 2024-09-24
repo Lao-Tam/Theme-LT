@@ -237,7 +237,6 @@ a {
     grid-template-rows: 40px;
     gap: 5px;
     margin-top: 20px;
-    font-size: 1rem;
 }
 
 .carousel .list .item .buttons button {
@@ -246,8 +245,9 @@ a {
     background-color: #00ac5c;
     letter-spacing: 3px;
     font-family: Poppins;
-    font-weight: 500;
     color: var(--bg-white);
+    font-size: 1rem;
+    padding: 10px 15px;
 }
 
 .carousel .list .item .buttons button:nth-child(2) {
